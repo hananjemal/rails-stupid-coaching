@@ -1,0 +1,13 @@
+<h2>Stupid Coaching</h2>
+
+<div>
+<p syle="margin-bottom:0px;"><%= "#{params[:question]}" %></p>
+<p>-You</p>
+</div>
+
+<div style="background-color: yellow; border-left: 2px solid grey; width: 300px;">
+<p syle="margin-bottom:0px;"><%= @answer %></p>
+<p>-Your Coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
